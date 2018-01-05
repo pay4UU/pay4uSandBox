@@ -37,7 +37,9 @@ works
 *pridaj ssh kluce podla navodu
 https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
-nezabudni skontrolovat ci nejake nemas
+nezabudni skontrolovat ci nejake SSH nemas
+
+npriek tomu to chce odo mna stale konto a heslo
 
 
 

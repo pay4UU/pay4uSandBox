@@ -28,6 +28,10 @@
             <span class="todo-title">
               {{todo.title}}
             </span>
+           <!--  teraz vidim v zozname title aj description -->
+            <span class="todo-title">
+              {{todo.description}}
+            </span>
             <span class="todo-actions">
                 <a (click)="editTodo(todo)">
                   <i class="material-icons edit">edit</i>
@@ -40,6 +44,8 @@
         <div class="todo-edit" *ngIf="editing && editingTodo.id === todo.id">
             <input class="form-control" type="text" 
              [(ngModel)]="editingTodo.title" required>
+            <input class="form-control" type="text" 
+             [(ngModel)]="editingTodo.description" required>
             <span class="edit-actions">
                 <a (click)="updateTodo(editingTodo)">
                   <i class="material-icons">done</i>
