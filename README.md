@@ -32,6 +32,15 @@ FE:
 **$ ng serve --open
 node_modules appears empty, you may need to run `npm install`
 
+works
+
+*pridaj ssh kluce podla navodu
+https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+
+nezabudni skontrolovat ci nejake nemas
+
+
+
 
 
 
