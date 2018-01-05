@@ -42,9 +42,11 @@
             </span>
         </div>
         <div class="todo-edit" *ngIf="editing && editingTodo.id === todo.id">
+        Enter title:
             <input class="form-control" type="text" 
              [(ngModel)]="editingTodo.title" required>
-            <input class="form-control" type="text" 
+				<hr>
+				<input class="form-control" type="text" 
              [(ngModel)]="editingTodo.description" required>
             <span class="edit-actions">
                 <a (click)="updateTodo(editingTodo)">
