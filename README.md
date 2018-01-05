@@ -39,7 +39,31 @@ https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
 nezabudni skontrolovat ci nejake SSH nemas
 
-npriek tomu to chce odo mna stale konto a heslo
+npriek tomu to chce odo mna stale konto a heslo, ale ekd som dal:
+$git remote set-url origin git@gist.github.com:pay4UU/pay4uSandBox.git
+
+pomohlo
+
+a teraz problemy s menu:
+https://codingthesmartway.com/angular-material-part-3-navigation-menus-sidenavs-and-toolbars/
+
+https://github.com/angular/material2/issues/7692
+
+neskor skusim este raz
+
+ale teraz navbar podla 
+https://medium.com/codingthesmartway-com-blog/building-an-angular-5-project-with-bootstrap-4-and-firebase-4504ff7717c1
+
+/pay4uSandBox/angular-frontend/src/app/app-navbar
+/pay4uSandBox/angular-frontend/src/app/app-navbar/app-navbar.component.css
+/pay4uSandBox/angular-frontend/src/app/app-navbar/app-navbar.component.html
+/pay4uSandBox/angular-frontend/src/app/app-navbar/app-navbar.component.spec.ts
+/pay4uSandBox/angular-frontend/src/app/app-navbar/app-navbar.component.ts
+
+Asi by bolo treba zmenit CCS tak aby boli volby v riadku
+
+
+
 
 
 

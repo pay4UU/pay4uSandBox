@@ -10,11 +10,13 @@ import { TodoListComponent } from './todo-list.component';
 
 // Inside app.module.ts
 import { TodoService } from './todo.service';
+import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodoListComponent
+    TodoListComponent,
+    AppNavbarComponent
   ],
   imports: [
     BrowserModule,
